@@ -24,7 +24,7 @@ const Loader = () => {
 
 
     return (
-        <div style={{ backgroundColor: "#00001a", width: "100vw", height: "100vh" }}>
+        <div style={{ backgroundColor: "black", width: "100vw", height: "100vh" }}>
             <div style={{ margin: "auto", display: 'flex', flexDirection: "column", paddingTop: "20rem", justifyContent: "center", paddingBottom: "auto" }}>
                 <img src={img1} alt='Keshav Aggarwal' style={{ margin: "auto", border: "5px solid white ", borderRadius: "100%", justifyContent: "center", display: "flex", alignContent: "center", width: "10rem", height: "10rem" }}>
                 </img>
