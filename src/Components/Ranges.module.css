@@ -1,0 +1,63 @@
+.container {
+    margin: 2vh auto 10vh auto;
+    display: 'flex';
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 70%;
+}
+
+.h2design {
+    display: flex;
+    margin: 25vh auto 5vh auto;
+    justify-self: center;
+    align-self: center;
+    color: red;
+}
+
+.h3style {
+    color: whitesmoke;
+    justify-self: flex-start;
+    width: 20vw;
+}
+
+.dv {
+    display: flex;
+    justify-self: flex-end;
+    border: 2px solid white;
+    height: 4vh;
+    border-radius: 10vh;
+    opacity: 0.5;
+}
+
+.dvinner {
+    background: red;
+    width: 30vw;
+    height: 4vh;
+    border-left: 1px solid red;
+    border-radius: 10vh 0vh 0vh 10vh;
+    opacity: 0.5;
+}
+
+.dvtwoinner {
+    background: transparent;
+    width: 10vw;
+    height: 5vh;
+}
+
+.dvi {
+    display: flex;
+    margin: 4vh auto;
+    justify-content: space-between;
+}
+
+.main {
+    margin: 25vh auto 5vh auto;
+    border: 3px solid white;
+    border-radius: 100%;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    width: 25vh;
+    height: 25vh;
+}
