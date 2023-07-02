@@ -4,7 +4,7 @@
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    width: 70%;
+    width: 75%;
 }
 
 .h2design {
@@ -12,7 +12,9 @@
     margin: 25vh auto 5vh auto;
     justify-self: center;
     align-self: center;
+    font-weight: bold;
     color: red;
+    text-decoration-line: underline;
 }
 
 .h3style {
@@ -60,4 +62,43 @@
     align-content: center;
     width: 25vh;
     height: 25vh;
+}
+
+.projects {
+    display: grid;
+    gap: 10vw;
+    width: 80vw;
+
+}
+
+.buttons {
+    font-size: 1vh;
+    margin: auto;
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+    border-radius: 5px;
+
+}
+
+.flexbox {
+    margin: 10vh 20vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    font-weight: bold;
+}
+
+.social_media {
+    display: flex;
+    flex-direction: row;
+    gap: 5vh 1vw;
+    margin: 5vh 10vw;
+}
+
+.image {
+    width: 7vh;
+    height: 7vh;
+    border: 2px solid white;
+    border-radius: 100%;
 }

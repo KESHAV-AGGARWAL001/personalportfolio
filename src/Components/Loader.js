@@ -28,7 +28,7 @@ const Loader = () => {
             <div style={{ margin: "auto", display: 'flex', flexDirection: "column", paddingTop: "20rem", justifyContent: "center", paddingBottom: "auto" }}>
                 <img src={img1} alt='Keshav Aggarwal' style={{ margin: "auto", border: "5px solid white ", borderRadius: "100%", justifyContent: "center", display: "flex", alignContent: "center", width: "10rem", height: "10rem" }}>
                 </img>
-                <h3 style={{ marginInline: "auto", color: '#2DF67E', marginTop: "2vh" }}>{text}</h3>
+                <h6 style={{ marginInline: "auto", color: '#2DF67E', marginTop: "2vh" }}>{text}</h6>
             </div>
         </div>
     )
